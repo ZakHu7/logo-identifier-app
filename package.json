@@ -1,0 +1,24 @@
+{
+  "name": "logo-identifier-app",
+  "version": "1.0.0",
+  "description": "canvas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakHu7/logo-identifier-app.git"
+  },
+  "author": "Zak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakHu7/logo-identifier-app/issues"
+  },
+  "homepage": "https://github.com/ZakHu7/logo-identifier-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
