@@ -1,6 +1,6 @@
 
 var express = require('express');
-const http require('http');
+const http = require('http');
 var app = express();
 var server = http.createServer((req, res) => {
 	res.statusCode = 200;
