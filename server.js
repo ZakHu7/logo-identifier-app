@@ -2,9 +2,9 @@
 var express = require('express');
 
 var app = express();
-var server = http.createServer((req, res)) => {
+var server = http.createServer((req, res) => {
 	res.statusCode = 200;
-}
+});
 
 app.use(express.static('public'));
 
